@@ -1,0 +1,26 @@
+{
+    "name": "volodymyr/laracasts-php-for-beginners",
+    "authors": [
+        {
+            "name": "Volodymyr Honcharov",
+            "email": "ladimirvm87@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/collections": "^11.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\": "Core/",
+            "Http\\": "Http/"
+        }
+    },
+    "require-dev": {
+        "pestphp/pest": "^2.34"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
